@@ -83,3 +83,7 @@ footer{
     background: #222;
     color: #fff;
 }
+
+.bg-custom-nav{
+    background: repeating-radial-gradient(#b434ca, #6235B5, #972091);
+}
