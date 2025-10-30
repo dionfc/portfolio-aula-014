@@ -80,10 +80,23 @@ body{
 }
 
 footer{
-    background: #222;
+    background: repeating-radial-gradient(#b434ca, #6235B5, #972091);
     color: #fff;
 }
 
 .bg-custom-nav{
     background: repeating-radial-gradient(#b434ca, #6235B5, #972091);
+}
+
+.row-habilidades{
+    margin-bottom: -3%;
+    justify-content: space-evenly;
+    height: fit-content;
+}
+
+.container-habilidades{
+
+    .text-center{
+        margin-top: -3%;
+    }
 }
