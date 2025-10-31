@@ -48,6 +48,7 @@ section{
 body{
     scroll-behavior: smooth;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-height: calc(header - footer);
 }
 .bg-gradient-purple{
     background: linear-gradient(135deg, #6a11cb, #2575fc);
