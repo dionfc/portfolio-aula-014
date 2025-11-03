@@ -1,3 +1,15 @@
-.container{
-    max-height: calc(100vh - 144);
+.conteudo{
+    margin-top: 56px;
+    min-height: calc(100vh - 144px);
+    font-style: italic;
+    display: flex;
+    justify-content: flex-start;
+
+    .lista{
+        text-align: left;
+        margin-right: 10px;
+    }
+}
+a{
+    text-decoration: none;
 }

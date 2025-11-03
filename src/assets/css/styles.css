@@ -51,19 +51,13 @@ body{
     max-height: calc(header - footer);
 }
 .bg-gradient-purple{
-    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    background: linear-gradient(135deg, navy, rgb(153, 2, 2));
     color: #fff;
-    &:hover{
-        background: linear-gradient(135deg, navy, red);
-    }
 }
 
 .bg-gradient-pink{
-    background: linear-gradient(135deg, #f54ea2, #ff7676);
+    background: linear-gradient(345deg, navy, rgb(153, 2, 2));
     color: #fff;
-    &:hover{
-        background: linear-gradient(135deg, navy, red);
-    }
 }
 
 .card-hover{
@@ -81,18 +75,27 @@ body{
 }
 
 footer{
-    background: repeating-radial-gradient(#b434ca, #6235B5, #972091);
+    background: linear-gradient(90deg, navy, rgb(153, 2, 2));
     color: #fff;
+    a{
+        text-decoration: none;
+        color: gainsboro
+    }
+
+    img{
+        width: 20px;
+        height: auto;
+        margin-right: 5px;
+    }
 }
 
 .bg-custom-nav{
-    background: repeating-radial-gradient(#b434ca, #6235B5, #972091);
+    background: linear-gradient(90deg, navy, rgb(153, 2, 2));
 }
 
 .row-habilidades{
     margin-bottom: -3%;
     justify-content: space-evenly;
-    height: fit-content;
 }
 
 .container-habilidades{

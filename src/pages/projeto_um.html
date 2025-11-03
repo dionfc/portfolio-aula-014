@@ -7,6 +7,7 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
         <link href="../assets/css/styles.css" rel="stylesheet" />
         <link href="../assets/css/styles_projects.css" rel="stylesheet" />
+        <link rel="icon" href="../assets/img/favicon.png" type="image/x-icon">
     </head>
     <body>
         <nav class="navbar navbar-expand-ls navbar-dark bg-custom-nav fixed-top"> <!-- Navbar -->
@@ -33,11 +34,21 @@
                 </div>
             </div>
         </nav> <!-- Fim Navbar -->
-        <div class="container">
-            <div class="col-md-6 conteudo">
-                <h1>Jogo da velha criado com a pseudolinguagem Portugol, executado no console, sem interface, para atividade do curso de frontend</h1>
-            </div>
-        </div>
+        <div class="container text-center"> <!-- Início container descrição do projeto -->
+            <div class="rows align-items-start conteudo"> <!-- Row para disposição do conteúdo -->
+                <div class="col-md-3 lista">
+                    <h6>Meus Projetos</h6>
+                    <ul>
+                        <li><a href="projeto_um.html">Jogo da velha</a></li>
+                        <li><a href="projeto_dois.html">Sistema mercado</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-9"> <!-- Div contendo a descrição do projeto -->
+                    <h1>Jogo da velha</h1>
+                    <p id="descricao"> Criado com a pseudolinguagem Portugol, executado no console, sem interface, para atividade do curso de frontend</p>
+                </div> <!-- Fim da descrição -->
+            </div> <!-- Fim da row -->
+        </div> <!-- Fim do container -->
         <div class="modal fade" id="contatoModal" tabindex="-1" aria-labelledby="contatoModalLabel" aria-hidden="true"> <!-- Modal Contato-->
             <div class="modal-dialog modal-dialog-centered"> <!-- Layout do modal -->
                 <div class="modal-content"> <!-- Conteúdo do modal -->
@@ -66,6 +77,7 @@
             </div> <!-- Fim do layout do modal -->
         </div> <!-- Fim do modal -->
         <footer class="text-center py-4"> <!-- Rodapé -->
+            <a href="https://github.com/dionfc"><img src="../assets/img/github.png" alt="Github Icon">Meu GitHub</a>
             <p>&copy; 2025 Senac. Todos os direitos resevados.</p>
         </footer> <!-- Fim do rodapé -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>

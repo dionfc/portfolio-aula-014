@@ -2,14 +2,14 @@ AOS.init({duration: 1000, once: false});
 
 particlesJS("particles-js", {
     particles: {
-        number: {value: 80},
-        color: {value: ["#ff7676", "#f54ea2", "#6a11cb", "#2575fc"]},
+        number: {value: 200},
+        color: {value: "#000000"},
         shape: {type:"circle"},
-        opacity: {value: 0.7},
-        size: {value: 3},
+        opacity: {value: 0.3},
+        size: {value: 2},
         move: {
             enable: true,
-            speed: 2,
+            speed: 10,
             direction: "none"
         },
     },
