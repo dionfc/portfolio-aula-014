@@ -31,7 +31,7 @@ header{
 }
 
 .btn-gradient{
-    background: linear-gradient(135deg, #ff7676, #f54ba2);
+    background: linear-gradient(225deg, #8400ff, rgba(255, 0, 0, 0.74));
     border: none;
     color: #fff;
     transition: all 0.3;
@@ -69,7 +69,7 @@ body{
 }
 
 .carousel-item img{
-    height: 400px;
+    height: 450px;
     object-fit: cover;
     border-radius: 10px;
 }
@@ -96,11 +96,4 @@ footer{
 .row-habilidades{
     margin-bottom: -3%;
     justify-content: space-evenly;
-}
-
-.container-habilidades{
-
-    .text-center{
-        margin-top: -3%;
-    }
 }
