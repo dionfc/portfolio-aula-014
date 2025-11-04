@@ -56,7 +56,7 @@ body{
 }
 
 .bg-gradient-pink{
-    background: linear-gradient(345deg, navy, rgb(153, 2, 2));
+    background: linear-gradient(345deg, rgb(0, 0, 128), rgb(153, 2, 2));
     color: #fff;
 }
 
@@ -94,6 +94,5 @@ footer{
 }
 
 .row-habilidades{
-    margin-bottom: -3%;
     justify-content: space-evenly;
 }

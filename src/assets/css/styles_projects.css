@@ -1,15 +1,46 @@
+body{
+    background-color: rgba(105, 105, 105, 0.123)
+}
 .conteudo{
     margin-top: 56px;
     min-height: calc(100vh - 144px);
     font-style: italic;
     display: flex;
     justify-content: flex-start;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 1px;
+    background-color: white;
 
     .lista{
         text-align: left;
         margin-right: 10px;
     }
+
+    .descricao{
+        border-style: solid;
+        border-left-width: 1px;
+        border-bottom: none;
+        border-top: none;
+        border-right: none;
+    }
+    h6{
+        text-align: center;
+    }
 }
 a{
     text-decoration: none;
+}
+
+.imgProject{
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    
+    
+    img{
+        width: 50dvw;
+        height: auto;
+        margin-top: 1px;
+    }
 }
