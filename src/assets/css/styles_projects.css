@@ -27,6 +27,13 @@ body{
     h6{
         text-align: center;
     }
+    p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        text-align: justify;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
 }
 a{
     text-decoration: none;
@@ -35,12 +42,13 @@ a{
 .imgProject{
     display: flex;
     flex-flow: column;
-    align-items: flex-start;
-    
-    
+    align-items: center;
+    gap: 10px;
+
     img{
         width: 50dvw;
         height: auto;
-        margin-top: 1px;
+        border: solid;
+        border-width: 1px;
     }
 }
